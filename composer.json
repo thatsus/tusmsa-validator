@@ -1,0 +1,20 @@
+{
+    "name": "lotvantage/tusmsa-validator",
+    "description": "Validate response data against the TUSMSA spec found at http://lister.engager.social/spec/1.0.txt.",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "laravel/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LotVantage\\Tusmsa\\": "src/LotVantage/Tusmsa"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}
