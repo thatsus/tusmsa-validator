@@ -2,7 +2,7 @@
 
 namespace LotVantage\Tusmsa;
 
-use Tests\TestCase;
+use TestCase;
 
 /**
  * Test that the TUSMSA validator conforms to the spec it
